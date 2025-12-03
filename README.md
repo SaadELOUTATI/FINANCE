@@ -1,147 +1,81 @@
-📘 FINANCE — Projet personnel en Analyse de Risques & Data Finance
+📘 FINANCE – Portfolio de projets en analyse des risques et data finance
+<p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/badge/Matplotlib-003366?style=for-the-badge" /> <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikitlearn&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white&style=for-the-badge" /> <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" /> </p> <p align="center"> <img src="https://img.shields.io/badge/Finance-003087?style=for-the-badge" /> <img src="https://img.shields.io/badge/Risk%20Management-8A2BE2?style=for-the-badge" /> <img src="https://img.shields.io/badge/Quantitative%20Finance-0F9D58?style=for-the-badge" /> <img src="https://img.shields.io/badge/Portfolio%20Analysis-1E90FF?style=for-the-badge" /> <img src="https://img.shields.io/badge/Value%20at%20Risk-FF5733?style=for-the-badge" /> </p>
 Présentation
-
-Ce repository regroupe mes projets personnels dans le domaine de la finance de marché, de la gestion des risques et de l’analyse quantitative.
-
-Étudiant à ESIEE Paris (filière Data & Applications), je développe des compétences techniques liées à l’analyse de portefeuille, aux indicateurs de risque, aux modèles de scoring et aux méthodes utilisées dans les banques, hedge funds et sociétés de gestion.
-
-Je suis également fondateur du Club Finance d’ESIEE Paris, que j’ai créé pour permettre aux étudiants d’explorer la finance de marché, les simulations de trading, la data finance et les analyses quantitatives.
-Ce club me permet d’encadrer des ateliers, de concevoir des contenus pédagogiques et de créer des projets collectifs autour de la finance et des données.
-
-Mon objectif : construire un portfolio solide démontrant ma capacité à analyser des données financières, mesurer des risques et appliquer des méthodologies utilisées par les risk analysts.
-
-🔍 Compétences développées
-
+Ce repository regroupe mes projets personnels en finance de marché, gestion des risques et analyse quantitative.
+ Étudiant à ESIEE Paris (filière Data & Applications), je développe des compétences techniques en analyse de portefeuille, mesure de risque, modèles prédictifs et data finance.
+Je suis également le fondateur du Club Finance ESIEE, où j’organise des ateliers, des simulations et des projets d’initiation à la finance et à la data.
+Compétences développées
 Analyse de portefeuille
+
 
 Volatilité, corrélations, drawdown
 
-Beta, exposition au marché
 
 VaR historique
 
-Stress testing (scénarios réels et chocs simulés)
 
-Backtesting de stratégies simples
+Beta et exposition au marché
 
-Modèles de scoring (risque de crédit)
+
+Stress testing (scénarios et chocs)
+
+
+Backtesting de stratégies
+
+
+Scoring de crédit
+
 
 Analyse factorielle (Fama-French)
 
-Organisation et animation d’ateliers (via le Club Finance)
 
-Outils & langages :
-Python, pandas, numpy, matplotlib, scikit-learn, yfinance, plotly, seaborn.
+Animation d’ateliers (Club Finance ESIEE)
 
-📂 Projets inclus
-1️⃣ Portfolio Risk Analysis
 
-Analyse complète d’un portefeuille actions :
+Outils utilisés : Python, pandas, numpy, matplotlib, scikit-learn, yfinance, plotly, seaborn.
+Projets inclus
+1. Portfolio Risk Analysis
+Analyse complète d’un portefeuille actions : rendements, volatilité, corrélations, drawdown, VaR.
+ Objectif : comprendre les fondamentaux de la gestion des risques.
+2. Stress Test – COVID-19
+Analyse de l’impact du choc 2020 : augmentation de volatilité, pertes maximales, scénario -20 %.
+ Objectif : identifier les risques extrêmes.
+3. Credit Scoring Model
+Modèle de scoring utilisant des données publiques : préparation, régression logistique, random forest, interprétation.
+ Objectif : appliquer les méthodes utilisées dans le risque crédit.
+4. Backtesting – Stratégie SMA
+Simulation d’une stratégie de moyennes mobiles : rendement cumulé, drawdown, Sharpe ratio.
+ Objectif : introduction aux approches quantitatives.
+5. Analyse Factorielle – Fama-French
+Étude des expositions aux facteurs marché, taille et valeur.
+ Objectif : comprendre les modèles utilisés en asset management.
+Club Finance ESIEE Paris
+Fondateur du Club Finance ESIEE Paris, permettant aux étudiants :
+d'explorer la finance de marché
 
-rendements
 
-volatilité annualisée
+de simuler des stratégies fictives
 
-corrélations
 
-drawdown
+d’apprendre la data finance
 
-VaR (historique)
 
-interprétations
+de développer des projets pédagogiques
 
-➡️ Reproduction des analyses standards en risk management.
 
-2️⃣ Stress Test – Marché COVID-19
+de participer à des analyses de marché
 
-Étude de l’impact du choc 2020 sur un portefeuille :
 
-analyse de la volatilité
-
-pertes maximales
-
-comparaison des périodes
-
-simulation d’un choc (-20 %)
-
-➡️ Compréhension des risques extrêmes et méthodes bancaires.
-
-3️⃣ Credit Scoring Model
-
-Modèle de scoring sur dataset public :
-
-préparation des données
-
-modèles (logit / random forest)
-
-évaluation
-
-importance des variables
-
-➡️ Application pratique du risque de crédit.
-
-4️⃣ Backtesting – Stratégie SMA
-
-Backtest d’une stratégie de moyenne mobile :
-
-signaux buy/sell
-
-rendement cumulé
-
-drawdown
-
-ratio de Sharpe
-
-➡️ Introduction aux stratégies quantitatives.
-
-5️⃣ Analyse Factorielle – Fama-French 3 Facteurs
-
-Étude de l’exposition à trois facteurs :
-
-données Fama-French
-
-régression
-
-analyse des coefficients
-
-➡️ Méthode utilisée en asset management.
-
-🟦 Projet supplémentaire : Club Finance ESIEE Paris
-
-En parallèle de mes projets personnels, j’ai créé le Club Finance de mon école, avec plusieurs axes de travail :
-
-introduction à la finance de marché
-
-simulations de trading fictif
-
-ateliers data finance (volatilité, VaR, corrélations…)
-
-mini-projets python/data pour les membres
-
-analyses collectives de marché
-
-Ce club renforce mon expérience :
-
-en pédagogie
-
-en organisation
-
-en vulgarisation de concepts financiers
-
-en gestion de mini-projets techniques
-
-🎯 Objectif professionnel
-
-Construire un portfolio complet orienté risk management, data finance et finance quantitative, afin de préparer une alternance ou un poste dans :
-
+Objectif professionnel
+Développer un portfolio solide orienté risk management, finance quantitative et data finance afin de préparer une alternance ou un poste en :
 Risk Analyst
 
-Market Risk / Credit Risk
 
-Quantitative Analyst (junior)
+Market/Credit Risk
 
-Data Analyst en finance
 
-📧 Contact
+Quant Junior
 
-Mail: saad.eloutati@edu.esiee.fr
+
+Data Analyst Finance
+
